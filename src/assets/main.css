@@ -1,35 +1,28 @@
-@import './base.css';
+html{
+  font-family: 'Roboto', sans-serif;
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  --clr-text-main: rgba(228, 228, 228, 1);
+  --clr-text-accent: rgba(176,177,208, 1);
+  --clr-text-purple: rgba(189,160,254, 1);
+  --clr-background-main: rgba(44,31,74, 1);
 
-  font-weight: normal;
+  font-size: 16px;
+  background-color: var(--clr-background-main);
+  color: var(--clr-text-main);
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+body{
+  max-width: 1920px;
+}
+          
+.container{
+  padding: 0 9.25rem;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+ul{
+  list-style: none;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.text-purple{
+  color: var(--clr-text-purple);
 }
