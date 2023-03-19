@@ -24,6 +24,7 @@
         class="course courses__item"
         @pointerenter="displayVideo(course, $event)"
         @pointerleave="hideVideo($event)"
+        @click="$router.push({ path: `/course/${course.id}` })"
       >
         <div class="course__image-container">
           <video class="course__image" autoplay muted></video>
