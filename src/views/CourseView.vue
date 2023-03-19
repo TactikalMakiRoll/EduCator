@@ -31,7 +31,7 @@
       </div>
     </div>
   </div>
-  <LoadingSpinner v-else></LoadingSpinner>
+  <LoadingSpinner style="width: 100%; margin: 0 auto" v-else></LoadingSpinner>
 </template>
 
 <script setup>

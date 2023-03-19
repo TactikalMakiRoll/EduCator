@@ -2,13 +2,22 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+## Info on the project
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Could've done much better, but I felt sick so there is a lot of room for improvement. Starting from most important things
 
-## Customize configuration
+### Course View
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- show correct images when there is no video for lessons
+- improve the overall view of the page
+- implement PiP and speed change via keyboard events
+- save video progress to localStorage
+
+### Other things
+
+- better API error handling and possibility to try to load things again
+- add tests to the code
+- Video loading animation with progress bar
 
 ## Project Setup
 
@@ -20,22 +29,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
