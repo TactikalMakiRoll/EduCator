@@ -10,13 +10,11 @@ html{
   background-color: var(--clr-background-main);
   color: var(--clr-text-main);
 }
-
-body{
-  max-width: 1920px;
-}
-          
+     
 .container{
   padding: 0 9.25rem;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 ul{
@@ -25,4 +23,16 @@ ul{
 
 .text-purple{
   color: var(--clr-text-purple);
+}
+
+@media screen and (max-width: 75em) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .container {
+    padding: 0 2rem;
+  }
 }
